@@ -6,11 +6,12 @@ How to Run the Application Locally
 1️ Clone the Repository
 
 git clone https://github.com/tanisshhq/BlogAssesment.git
+
 cd BlogAssesment
 
 2️ Backend Setup
 
-- Navigate to the server directory
+- Navigate to the backend directory
 
 cd api
 
@@ -23,7 +24,7 @@ npm install
 Create a .env file inside the server directory and add the following:
 
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+
 PORT=5000
 
 - Start the backend server
